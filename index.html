@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<!-- saved from url=(0096)https://id-preview-%2D52ee25a1-7004-4e5c-8ddc-1379973ddfb5.lovable.app/ens-patisserie.html#order -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>En's Pâtisserie — Keto, No-Sugar Cakes &amp; Artisan Desserts</title>
+<meta name="description" content="En&#39;s Pâtisserie bakes keto, no-sugar cakes and artisan desserts — handmade, low-carb and diabetic friendly. Available for events, parties and celebrations.">
+<meta property="og:title" content="En&#39;s Pâtisserie — Keto, No-Sugar Cakes &amp; Artisan Desserts">
+<meta property="og:description" content="Handmade keto, no-sugar cakes and artisan desserts. Order for celebrations, events and parties.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="ens-logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --brown:#382a1d;
+    --brown-deep:#241a12;
+    --cream:#f0e6d8;
+    --cream-soft:#e6d8c4;
+    --white:#ffffff;
+    --line:rgba(240,230,216,.28);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;max-width:100%;overflow-x:hidden;}
+  body{
+    background:var(--white);
+    color:var(--brown);
+    font-family:"Jost",system-ui,sans-serif;
+    font-weight:300;
+    font-size:16px;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;}
+  .wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 22px;}
+  .serif{font-family:"Cormorant Garamond",Georgia,serif;font-weight:300;}
+  .script{font-family:"Italianno",cursive;font-weight:400;line-height:1.1;}
+  .eyebrow{
+    font-size:.7rem;letter-spacing:.42em;text-transform:uppercase;
+    opacity:.75;margin:0 0 14px;
+  }
+  h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:300;margin:0;letter-spacing:.02em;}
+  h2{font-size:clamp(1.7rem,5.4vw,2.7rem);line-height:1.2;}
+  h3{font-size:clamp(1.15rem,4vw,1.45rem);}
+  p{margin:0 0 1rem;}
+  section{padding:clamp(56px,10vw,104px) 0;}
+
+  /* ---------- nav ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(56,42,29,.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:12px;height:62px;}
+  .nav img{height:34px;width:auto;}
+  .nav .links{display:none;gap:26px;font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--cream);}
+  .nav .links a{text-decoration:none;opacity:.85;}
+  .nav .links a:hover{opacity:1;}
+  .nav .cta{
+    color:var(--brown);background:var(--cream);
+    text-decoration:none;font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;
+    padding:9px 16px;border-radius:999px;white-space:nowrap;
+  }
+  @media(min-width:820px){.nav .links{display:flex;}}
+
+  /* ---------- hero ---------- */
+  .hero{
+    position:relative;min-height:88vh;display:flex;align-items:center;justify-content:center;
+    text-align:center;color:var(--cream);padding:80px 0;
+    background:
+      linear-gradient(rgba(36,26,18,.78),rgba(36,26,18,.82)),
+      url("cheesecake.jpg") center/cover no-repeat;
+  }
+  .hero .logo{height:clamp(96px,26vw,150px);width:auto;margin:0 auto 26px;}
+  .hero h1{font-size:clamp(2rem,8vw,3.6rem);line-height:1.14;letter-spacing:.03em;}
+  .hero .script{font-size:clamp(2.4rem,11vw,4rem);color:var(--cream-soft);display:block;margin-bottom:-.1em;}
+  .hero p{max-width:36ch;margin:20px auto 0;font-size:clamp(.9rem,3.4vw,1.02rem);opacity:.88;}
+  .btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:32px;}
+  .btn{
+    display:inline-block;text-decoration:none;border-radius:999px;
+    padding:13px 26px;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;
+    transition:.25s ease;
+  }
+  .btn-solid{background:var(--cream);color:var(--brown);}
+  .btn-solid:hover{background:var(--white);}
+  .btn-ghost{border:1px solid var(--line);color:var(--cream);}
+  .btn-ghost:hover{background:rgba(240,230,216,.12);}
+
+  /* ---------- testimonials ---------- */
+  .testi{background:var(--cream);}
+  .testi .head{text-align:center;margin-bottom:clamp(28px,6vw,48px);}
+  .testi .script{font-size:clamp(2.2rem,9vw,3.2rem);}
+  .quotes{display:grid;gap:18px;grid-template-columns:1fr;}
+  @media(min-width:700px){.quotes{grid-template-columns:1fr 1fr;}}
+  blockquote{
+    margin:0;background:var(--white);border:1px solid rgba(56,42,29,.1);
+    border-radius:3px;padding:26px 24px;position:relative;
+  }
+  blockquote p{
+    font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;
+    font-size:clamp(1.02rem,3.8vw,1.2rem);line-height:1.6;margin:0 0 12px;
+  }
+  blockquote cite{font-style:normal;font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;opacity:.55;}
+  .quotes blockquote:first-child{grid-column:1/-1;}
+
+  /* ---------- feature bands ---------- */
+  .band{position:relative;color:var(--cream);text-align:center;}
+  .band .inner{position:relative;z-index:2;max-width:640px;margin:0 auto;}
+  .band-berry{background:linear-gradient(rgba(36,26,18,.74),rgba(36,26,18,.8)),url("berry-cheesecake.jpg") center/cover no-repeat;background-attachment:scroll;}
+  .band-event{background:linear-gradient(rgba(36,26,18,.78),rgba(36,26,18,.84)),url("catering.jpg") center/cover no-repeat;}
+  .band .script{font-size:clamp(2.1rem,9vw,3rem);color:var(--cream-soft);display:block;}
+  .band p{opacity:.9;font-size:clamp(.9rem,3.4vw,1rem);}
+
+  /* ---------- what we bake ---------- */
+  .menu{background:var(--white);}
+  .grid3{display:grid;gap:20px;grid-template-columns:1fr;margin-top:36px;}
+  @media(min-width:760px){.grid3{grid-template-columns:repeat(3,1fr);}}
+  .card{border:1px solid rgba(56,42,29,.12);border-radius:3px;overflow:hidden;background:var(--white);}
+  .card .ph{aspect-ratio:4/3;overflow:hidden;}
+  .card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease;}
+  .card:hover .ph img{transform:scale(1.05);}
+  .card .body{padding:20px 20px 24px;}
+  .card p{font-size:.9rem;opacity:.8;margin:8px 0 0;}
+  .center{text-align:center;}
+  .lead{max-width:60ch;margin:0 auto;opacity:.85;}
+
+  /* ---------- details ---------- */
+  .details{background:var(--cream);}
+  .grid2{display:grid;gap:26px;grid-template-columns:1fr;margin-top:34px;}
+  @media(min-width:760px){.grid2{grid-template-columns:1fr 1fr;}}
+  .detail{border-top:1px solid rgba(56,42,29,.18);padding-top:18px;}
+  .detail h3{margin-bottom:6px;}
+  .detail p{font-size:.92rem;opacity:.82;margin:0;}
+
+  /* ---------- contact ---------- */
+  .contact{background:var(--brown);color:var(--cream);}
+  .contact .script{font-size:clamp(2.2rem,9vw,3.2rem);color:var(--cream-soft);display:block;}
+  form{margin-top:30px;display:grid;gap:14px;max-width:560px;margin-left:auto;margin-right:auto;text-align:left;}
+  label{font-size:.64rem;letter-spacing:.24em;text-transform:uppercase;opacity:.7;display:block;margin-bottom:6px;}
+  input,textarea{
+    width:100%;background:transparent;border:1px solid var(--line);color:var(--cream);
+    padding:12px 14px;border-radius:3px;font-family:inherit;font-size:.95rem;
+  }
+  input:focus,textarea:focus{outline:none;border-color:var(--cream);}
+  textarea{min-height:120px;resize:vertical;}
+  form .btn{border:none;cursor:pointer;font-family:inherit;width:100%;}
+  .or{font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;opacity:.6;margin:26px 0 14px;text-align:center;}
+
+  footer{background:var(--brown-deep);color:var(--cream);padding:44px 0 54px;text-align:center;}
+  footer img{height:64px;width:auto;margin:0 auto 16px;}
+  footer p{font-size:.78rem;opacity:.65;margin:4px 0;}
+
+  .fab{
+    position:fixed;right:16px;bottom:16px;z-index:60;
+    background:var(--brown);color:var(--cream);text-decoration:none;
+    border:1px solid var(--line);border-radius:999px;
+    padding:12px 20px;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;
+    box-shadow:0 10px 30px rgba(36,26,18,.28);
+  }
+
+  /* ---------- FADE ANIMATIONS ---------- */
+  .fade-el {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  .fade-el.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .fade-el.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="https://id-preview--52ee25a1-7004-4e5c-8ddc-1379973ddfb5.lovable.app/ens-patisserie.html#top"><img src="./ens-logo.png" alt="En&#39;s Pâtisserie"></a>
+    <nav class="links">
+      <a href="https://id-preview--52ee25a1-7004-4e5c-8ddc-1379973ddfb5.lovable.app/ens-patisserie.html#bakes">Our Bakes</a>
+      <a href="https://id-preview--52ee25a1-7004-4e5c-8ddc-1379973ddfb5.lovable.app/ens-patisserie.html#events">Events</a>
+      <a href="https://id-preview--52ee25a1-7004-4e5c-8ddc-1379973ddfb5.lovable.app/ens-patisserie.html#about">About</a>
+      <a href="https://id-preview--52ee25a1-7004-4e5c-8ddc-1379973ddfb5.lovable.app/ens-patisserie.html#order">Contact</a>
+    </nav>
+    <a class="cta" href="https://id-preview--52ee25a1-7004-4e5c-8ddc-1379973ddfb5.lovable.app/ens-patisserie.html#order">Order</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <img class="logo fade-el" src="./ens-logo.png" alt="En&#39;s Pâtisserie logo">
+      <h1><span class="script fade-el">Sweetness,</span> <span class="fade-el">without the sugar</span></h1>
+      <p class="fade-el">Keto, no-sugar cakes &amp; artisan desserts — baked by hand, in small batches, for people who still want dessert.</p>
+      <div class="btns fade-el">
+        <a class="btn btn-solid" href="https://wa.me/60123456789?text=Hi%2C%20En%27s%20Patiesserie%21%20I%20would%20like%20to%20order%20from%20youu%20%3A)" target="_blank" rel="noopener">Order on WhatsApp</a>
+        <a class="btn btn-ghost" href="https://id-preview--52ee25a1-7004-4e5c-8ddc-1379973ddfb5.lovable.app/ens-patisserie.html#order">Send an Inquiry</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIES -->
+  <section class="testi">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow fade-el">Kind Words</p>
+        <span class="script fade-el">Loved at every slice</span>
+      </div>
+      <div class="quotes">
+        <blockquote class="fade-el">
+          <p>“The cake tasted so good, my mom loves it, she's a fan of your cake thou.”</p>
+          <cite>— A happy customer</cite>
+        </blockquote>
+        <blockquote class="fade-el">
+          <p>“I even gave some to my neigbors to try and their whole family loved it too!”</p>
+          <cite>— A happy customer</cite>
+        </blockquote>
+        <blockquote class="fade-el">
+          <p>“10/10 cake. It's healthy but you'll never guess from the taste!”</p>
+          <cite>— A happy customer</cite>
+        </blockquote>
+        <blockquote class="fade-el">
+          <p>“They love it sissss.”</p>
+          <cite>— A happy customer</cite>
+        </blockquote>
+        <blockquote class="fade-el">
+          <p>“It was so good, so moist!”</p>
+          <cite>— A happy customer</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT -->
+  <section class="band band-berry">
+    <div class="wrap inner">
+      <p class="eyebrow fade-el">What We Do</p>
+      <h2><span class="script fade-el">Baked gently,</span><br><span class="fade-el">sweetened kindly</span></h2>
+      <p class="fade-el">Every cake is keto-friendly and made with no refined sugar and no wheat flour — think almond, cream cheese, butter and real fruit. Diabetic friendly, low-carb, and never dry. Just dessert the way it should taste.</p>
+    </div>
+  </section>
+
+  <!-- BAKES -->
+  <section class="menu" id="bakes">
+    <div class="wrap center">
+      <p class="eyebrow fade-el">The Counter</p>
+      <h2 class="fade-el">Our little collection</h2>
+      <p class="lead fade-el">Made to order in small batches, so everything arrives fresh from the oven.</p>
+      <div class="grid3">
+        <article class="card fade-el">
+          <div class="ph"><img src="./cheesecake.jpg" alt="Keto brownie burnt cheesecake" loading="lazy"></div>
+          <div class="body">
+            <h3>Brownie Burnt Cheesecake</h3>
+            <p>Our signature. Caramelised top, molten centre, a fudgy brownie base — no sugar, no flour.</p>
+          </div>
+        </article>
+        <article class="card fade-el">
+          <div class="ph"><img src="./berry-cheesecake.jpg" alt="Berry topped burnt cheesecake" loading="lazy"></div>
+          <div class="body">
+            <h3>Berry &amp; Pistachio Basque</h3>
+            <p>Burnt cheesecake crowned with fresh berries and crushed pistachio. Celebration ready.</p>
+          </div>
+        </article>
+        <article class="card fade-el">
+          <div class="ph"><img src="./walnut-cake.jpg" alt="Walnut butter cake slices" loading="lazy"></div>
+          <div class="body">
+            <h3>Walnut Butter Cake</h3>
+            <p>Toasted walnuts folded through a soft, buttery crumb. Perfect with black coffee.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="band band-event" id="events">
+    <div class="wrap inner">
+      <p class="eyebrow fade-el">Events &amp; Parties</p>
+      <h2><span class="script fade-el">Let us cater</span><br><span class="fade-el">your celebration</span></h2>
+      <p class="fade-el">We're open for events and parties — birthdays, bridal showers, corporate spreads and high tea. Dessert tables, mini tarts, canapés and custom cakes, arranged and styled for your day.</p>
+      <div class="btns fade-el">
+        <a class="btn btn-solid" href="https://id-preview--52ee25a1-7004-4e5c-8ddc-1379973ddfb5.lovable.app/ens-patisserie.html#order">Plan an Event</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO / WHERE -->
+  <section class="details" id="about">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow fade-el">Who &amp; Where</p>
+        <h2><span class="script fade-el">En</span> <span class="fade-el">— meaning grace</span></h2>
+        <p class="lead fade-el">En's Pâtisserie is a small home-based bakery born from one simple wish: that the people we love shouldn't have to give up cake. Everything is baked to order, by hand, with ingredients we'd happily feed our own family.</p>
+      </div>
+      <div class="grid2">
+        <div class="detail fade-el">
+          <h3>Where to find us</h3>
+          <p>Home-based bakery in Kuala Lumpur, Malaysia. Self pick-up by appointment, with delivery available around the Klang Valley.</p>
+        </div>
+        <div class="detail fade-el">
+          <h3>Ordering</h3>
+          <p>Kindly place orders at least 3 days in advance. Custom flavours, sizes and dietary requests are always welcome.</p>
+        </div>
+        <div class="detail fade-el">
+          <h3>What makes it different</h3>
+          <p>No refined sugar, no wheat flour. Keto, low-carb and diabetic friendly — without tasting like it.</p>
+        </div>
+        <div class="detail fade-el">
+          <h3>Hours</h3>
+          <p>Monday to Saturday, 10am – 7pm. Messages are answered as soon as the oven allows.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="order">
+    <div class="wrap center">
+      <p class="eyebrow fade-el">Get in Touch</p>
+      <span class="script fade-el">Shall we bake something?</span>
+      <p class="lead fade-el">Tell us the occasion, the date and the flavour you're dreaming of.</p>
+
+      <form action="mailto:hello@enspatisserie.com" method="post" enctype="text/plain" class="fade-el">
+        <div>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Jane Tan" required="">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="jane@email.com" required="">
+        </div>
+        <div>
+          <label for="message">Your inquiry</label>
+          <textarea id="message" name="message" placeholder="I&#39;d love a 6-inch brownie burnt cheesecake for a birthday on..." required=""></textarea>
+        </div>
+        <button class="btn btn-solid" type="submit">Send Inquiry</button>
+      </form>
+
+      <p class="or fade-el">or say hello instantly</p>
+      <div class="btns fade-el" style="margin-top:0">
+        <a class="btn btn-ghost" href="https://wa.me/60123456789?text=Hi%2C%20En%27s%20Patiesserie%21%20I%20would%20like%20to%20order%20from%20youu%20%3A)" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a class="btn btn-ghost" href="mailto:hello@enspatisserie.com?subject=Order%20Inquiry%20%E2%80%94%20En%27s%20P%C3%A2tisserie">Email Us</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="./ens-logo.png" alt="En&#39;s Pâtisserie" class="fade-el">
+    <p class="script fade-el" style="font-size:1.9rem;opacity:.9;margin:0 0 8px">Baked with grace</p>
+    <p class="fade-el">Keto · No Sugar · Artisan Desserts · Kuala Lumpur</p>
+    <p class="fade-el">© <span id="yr">2026</span> En's Pâtisserie. All rights reserved.</p>
+  </div>
+</footer>
+
+<a class="fab" href="https://wa.me/60123456789?text=Hi%2C%20En%27s%20Patiesserie%21%20I%20would%20like%20to%20order%20from%20youu%20%3A)" target="_blank" rel="noopener">WhatsApp</a>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+// Fade in/out on scroll
+(function() {
+  const els = document.querySelectorAll('.fade-el');
+  
+  function checkVisibility() {
+    const windowHeight = window.innerHeight;
+    const threshold = 0.15;
+    
+    els.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      const top = rect.top;
+      const bottom = rect.bottom;
+      
+      const visibleRatio = Math.min(1, Math.max(0, 
+        (Math.min(bottom, windowHeight) - Math.max(top, 0)) / rect.height
+      ));
+      
+      if (visibleRatio > threshold) {
+        el.classList.add('visible');
+        el.classList.remove('hidden');
+      } else {
+        el.classList.remove('visible');
+        el.classList.add('hidden');
+      }
+    });
+  }
+  
+  window.addEventListener('scroll', checkVisibility);
+  window.addEventListener('resize', checkVisibility);
+  checkVisibility();
+})();
+</script>
+
+</body></html>
